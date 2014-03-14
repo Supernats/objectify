@@ -1,0 +1,11 @@
+{
+  "name": "Objectify",
+  "version": "0.0.0",
+  "description": "Serve up website DOMs.",
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest",
+    "request": "latest"
+  },
+  "author": "Nathan Seither"
+}
