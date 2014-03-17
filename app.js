@@ -9,7 +9,7 @@ app.engine('jade', require('jade').__express);
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-  console.log("here's the url " + request.query.url);
+  // console.log("here's the url " + request.query.url);
   var domCollector = new DomCollector(request.query.url);
   //console.log(domCollector.scrape());
   response.send(domCollector.scrape());
